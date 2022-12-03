@@ -2,6 +2,6 @@ workflow:
   steps:
     - rebuild_package:
         project: home:awesome
-        package: test
+        package: linux
   filters:
     event: push
