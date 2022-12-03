@@ -1,0 +1,6 @@
+workflow:
+  steps:
+    - branch_package:
+        source_project: home:hennevogel
+        source_package: ctris
+        target_project: releases
