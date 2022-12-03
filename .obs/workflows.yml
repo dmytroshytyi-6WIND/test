@@ -1,6 +1,7 @@
 workflow:
   steps:
-    - branch_package:
-        source_project: home:hennevogel
-        source_package: ctris
-        target_project: releases
+    - rebuild_package:
+        project: home:awesome
+        package: test
+  filters:
+    event: push
